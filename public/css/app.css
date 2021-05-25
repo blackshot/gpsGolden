@@ -10002,3 +10002,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
