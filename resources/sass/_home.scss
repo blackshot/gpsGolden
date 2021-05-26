@@ -1,0 +1,34 @@
+html{
+    background-color: $secundario;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fondo-nav{
+    background-color: transparent !important;
+}
+
+.texto-nav{
+    color:$tercero !important;
+}
+
+.header{
+    background-image: url(../../public/images/fondo-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;    
+    width: 100vw;
+}
+
+.servicios{
+    background-color: $secundario;
+}
+
+.titulo-servicios{
+    color: $tercero;
+}
+
+
+
+.footer{
+    background-color: $principal;
+}

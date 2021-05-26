@@ -10008,5 +10008,34 @@ h3 {
 }
 
 html {
-  font-size: 62.5%;
+  background-color: #393e46;
+  font-family: "Poppins", sans-serif;
+}
+
+.fondo-nav {
+  background-color: transparent !important;
+}
+
+.texto-nav {
+  color: #ffd369 !important;
+}
+
+.header {
+  background-image: url(/images/fondo-2.jpeg?4b80f195ae18750ec318b194be98cd07);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+}
+
+.servicios {
+  background-color: #393e46;
+}
+
+.titulo-servicios {
+  color: #ffd369;
+}
+
+.footer {
+  background-color: #222831;
 }
