@@ -28,7 +28,7 @@
                             <a class="nav-link" aria-current="page" href="#">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactanos</a>
+                            <a class="nav-link" href="#">Contáctanos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.qmgps.cl/gps_golden/inicioGOLDEN.aspx" target="_blank">Portal</a>
@@ -40,7 +40,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col d-flex justify-content-center">
-                    <a href="" class="btn btn-warning">Contactanos</a>
+                    <a href="" class="btn btn-warning">Contáctanos</a>
                 </div>
             </div>
         </div>        
@@ -56,7 +56,7 @@
             </div>
             <div class="row pt-5 pb-5 text-center">
                 <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="{{ asset('images/camion.png') }}" class="card-img-top" alt="...">
                         <div class="card-title pt-3">
                             <h5>Servicio 1</h5>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="{{ asset('images/camion.png') }}" class="card-img-top" alt="...">
                         <div class="card-title pt-3">
                             <h5>Servicio 2</h5>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="{{ asset('images/camion.png') }}" class="card-img-top" alt="...">
                         <div class="card-title pt-3">
                             <h5>Servicio 3</h5>
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center pt-5 mt-5 titulo-contactanos ">Contactanos</h1>
+                    <h1 class="text-center pt-5 mt-5 titulo-contactanos ">Contáctanos</h1>
                 </div>
             </div>
             <form action="">
@@ -160,10 +160,29 @@
                     <a href="https://www.facebook.com/sebastian.ibaceta" target="_blank"><i class="fab fa-facebook"></i>Sebastian Ibaceta</a>
                     <a href="https://www.instagram.com/servicios.integrales.ibaceta/" target="_blank"><i class="fab fa-instagram"></i>Servicios Integrales Ibaceta</a>
                 </div>
+
+                <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Jesucito bonito</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
             </div>
         </div>
     </section>
-
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
 
