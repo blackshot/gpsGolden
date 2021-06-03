@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
         return view('landing');
     }
+
+    public function servicio(){
+        return view('servicios');
+    }
 }

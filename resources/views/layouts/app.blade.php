@@ -14,7 +14,9 @@
 </head>
 <body>
     @include('componentes.navbar')
+    @include('componentes.header')
     @yield('cuerpo') 
+    @include('componentes.formularioContacto')
     @include('componentes.footer')
     <script src="{{ asset('js/app.js') }}" defer></script>
     @yield('js')

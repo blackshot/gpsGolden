@@ -15,6 +15,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/servicios', [HomeController::class, 'servicio'])->name('servicio');
 
 Auth::routes();
 

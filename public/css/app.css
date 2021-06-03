@@ -16139,23 +16139,15 @@ readers do not read off random characters that represent icons */
 html {
   background-color: #393e46;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .fondo-nav {
-  background-color: transparent !important;
-}
-
-.btn-whatsapp {
-  display: block;
-  width: 70px;
-  height: 70px;
-  color: #fff;
+  background-color: rgba(7, 7, 7, 0.65) !important;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-  border-radius: 50%;
-  line-height: 80px;
-  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
 }
 
@@ -16179,6 +16171,21 @@ html {
   color: #ffd369;
 }
 
+.tarjeta {
+  width: 345px !important;
+  border-radius: 16px !important;
+}
+
+.card-img-top {
+  position: relative;
+  top: -1px;
+  left: -1px;
+  margin: 0 !important;
+  border-radius: 14px !important;
+  width: 345px !important;
+  height: 460px !important;
+}
+
 .formulario {
   background-color: #393e46;
   color: #ffd369;
@@ -16190,5 +16197,24 @@ html {
 }
 
 .texto-amarillo {
+  color: #ffd369;
+}
+
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.icono-footer {
+  font-size: 1rem;
   color: #ffd369;
 }
