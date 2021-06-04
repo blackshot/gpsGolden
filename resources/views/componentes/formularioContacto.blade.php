@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="text-center pt-5 mt-5 titulo-contactanos" id="contactanos">Contáctanos</h1>
+                <h2 class="text-center pt-5 mt-5 titulo-contactanos" id="contactanos">Contáctanos</h2>
             </div>
         </div>
         <form action="">
