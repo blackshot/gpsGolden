@@ -10,10 +10,10 @@
         </a>
     </div>
     
-    <section class="datos-seccion-servicios">
+    <section class="datos-seccion-servicios-transporte">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-3 mb-3">
                     <h2 class="text-center texto-amarillo">Transporte de Carga</h2>
                 </div>
             </div>

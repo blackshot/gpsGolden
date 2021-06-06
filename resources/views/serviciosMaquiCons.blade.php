@@ -9,14 +9,14 @@
         </a>
     </div>
 
-    <section class="datos-seccion-servicios">
+    <section class="datos-seccion-servicios-construccion">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h2 class="text-center texto-amarillo">Maquinaria - Construcción</h2>
+                <div class="col mt-3 mb-3">
+                    <h2 class="text-center">Maquinaria - Construcción</h2>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-3 datos-servicios">
                 <div class="col">
                     <div id="accordion">
                         @foreach ( $datosMaquinariaConstruccion as $key => $datos)    
@@ -45,7 +45,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col">
-                    <h2 class="texto-amarillo text-center">Valores</h2>
+                    <h2 class="text-center">Valores</h2>
                     <h5 class="text-danger text-center">VALORES NO INCLUYEN IVA</h5>
                 </div>
             </div>
@@ -66,11 +66,11 @@
                         <div class="card-body">
                             <h4 class="card-title text-center title-card-prices">Equipamiento Base</h4>
                             <h5 class="card-text text-center">1 UF </h5>
-                            <h6>Instalación GPS dentro de la V región.</h6>
+                            <h6 class="text-center">Instalación GPS dentro de la V región.</h6>
                             <hr>
                             <h5 class="card-text text-center">2 UF </h5>
-                            <h6>Instalación GPS fuera de la V región.</h6>
-                            <small class="text-primary">Tiempo estimado de instalación por camión: <b>40 minutos</b> </small>
+                            <h6 class="text-center">Instalación GPS fuera de la V región.</h6>
+                            <small class="text-primary text-center">Tiempo estimado de instalación por camión: <b>40 minutos</b> </small>
                         </div>
                     </div>
                 </div>
@@ -80,12 +80,12 @@
                         <div class="card-body">
                             <h4 class="card-title text-center title-card-prices">Equipamiento Recomendado</h4>
                             <h5 class="card-text text-center">1.5 UF</h5>
-                            <h6>Bloqueo de motor.</h6>
-                            <h6>Instalación corta corriente.</h6>
+                            <h6 class="text-center">Bloqueo de motor.</h6>
+                            <h6 class="text-center">Instalación corta corriente.</h6>
                             <hr>
                             <h5 class="card-text text-center">8 UF</h5>
-                            <h6>Detector de Jammer.</h6>
-                            <h6>Equipamiento de protección ante inhibidores GPS.</h6>
+                            <h6 class="text-center">Detector de Jammer.</h6>
+                            <h6 class="text-center">Equipamiento de protección ante inhibidores GPS.</h6>
                         </div>
                     </div>
                 </div>

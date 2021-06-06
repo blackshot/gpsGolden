@@ -16255,9 +16255,22 @@ html {
   color: #48AAAD;
 }
 
-.datos-seccion-servicios {
-  background-color: #393e46;
-  margin-top: 5rem;
+.datos-seccion-servicios-construccion {
+  background-image: url(/images/construction2.jpeg?8a6578989bb79bc1f2c5e38341a25c85);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem;
+}
+
+.datos-seccion-servicios-transporte {
+  background-image: url(/images/calle5.jpeg?bec9262f1b27ef3b51145ac252f164c0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem;
 }
 
 .titulo-datos-servicios {

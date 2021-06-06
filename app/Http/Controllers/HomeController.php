@@ -62,8 +62,10 @@ class HomeController extends Controller
         $datosMaquinariaConstruccion = array(
             array(
                 'titulo' => 'Robo de maquinaria',
-                'solucion' => '1) Bloqueo remoto del motor'.'\n'.'2) Bloqueo por desconexión de GPS',
-                'descripcion' => '1) Mediante nuestra plataforma el usuario podrá detener el camión ingresando una contraseña. \n2) Es típico que cuando se roban un camión los delicuentes intentan sacar el GPS para que no los encuentren. Nuestro sistema permite que el camión  se detenga si nos desconectan el GPS.'
+                'solucion' => '1) Bloqueo remoto del motor. 
+                               2) Bloqueo por desconexión de GPS.',
+                'descripcion' => '1) Mediante nuestra plataforma el usuario podrá detener el camión ingresando una contraseña. 
+                                  2) Es típico que cuando se roban un camión los delicuentes intentan sacar el GPS para que no los encuentren. Nuestro sistema permite que el camión  se detenga si nos desconectan el GPS.'
             ),
             array(
                 'titulo' => 'Control de horas trabajadas',

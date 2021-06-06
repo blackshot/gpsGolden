@@ -118,9 +118,22 @@ html{
 }
 
 // Pagina servicios
-.datos-seccion-servicios{
-    background-color: $secundario;
-    margin-top: 5rem;
+.datos-seccion-servicios-construccion{
+    background-image: url(../../public/images/construction2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    width: 100%;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem;
+}
+
+.datos-seccion-servicios-transporte{
+    background-image: url(../../public/images/calle5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    width: 100%;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem;
 }
 
 .titulo-datos-servicios{
