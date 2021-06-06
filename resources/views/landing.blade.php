@@ -31,7 +31,7 @@
                             <h6 class="card-text">Bloqueo remoto</h6>
                             <h6 class="card-text">Inmovilizador</h6>
                             <br>
-                            <a href="{{ route('servicio') }}" class="btn btn-warning">Leer más</a>
+                            <a href="{{ route('servicioTransporte') }}" class="btn btn-warning">Leer más</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                             <h6 class="card-text">Resumen de flota</h6>
                             <h6 class="card-text">Sensor on/off</h6>
                             <br>
-                            <a href="{{ route('servicio') }}" class="btn btn-warning">Leer más</a>
+                            <a href="{{ route('servicioMquinariaConstruccion') }}" class="btn btn-warning">Leer más</a>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ class HomeController extends Controller
         return view('landing');
     }
 
-    public function servicio(){
+    public function servicioTransporte(){
         $datosTrasnporteCarga = array(
             array(
                 'titulo' =>'Robo de carga completa',
@@ -36,25 +36,60 @@ class HomeController extends Controller
             array(
                 'titulo' =>'Apertura de puertas en lugares indebidos',
                 'solucion' => 'Sensor de Puertas traseras',
-                'descripcion' => 'Sabemos dónde abren y cierran las puertas traseras. Con esto podemos detectar posibles robos en la ruta'
+                'descripcion' => 'Sabemos dónde abren y cierran las puertas traseras. Con esto podemos detectar posibles robos en la ruta.'
             ),
             array(
                 'titulo' =>'Gestión de mantenciones a mano',
                 'solucion' => 'Módulo de mantenciones preventivas',
-                'descripcion' => 'Contabilizamos los kilómetros recorridos por cada caminón y avisamos cuando se aproxima una mantención para poder gestionarla de manera eficiente'
+                'descripcion' => 'Contabilizamos los kilómetros recorridos por cada caminón y avisamos cuando se aproxima una mantención para poder gestionarla de manera eficiente.'
             ),
             array(
                 'titulo' =>'Mandante exige los datos del GPS',
                 'solucion' => 'Web services',
-                'descripcion' => 'Al ser desarrolladores de la plataforma, realizamos sistemas de reenvios de la información para que nuestros clientes puedan cumplir con los requerimientos del generador de carga'
+                'descripcion' => 'Al ser desarrolladores de la plataforma, realizamos sistemas de reenvios de la información para que nuestros clientes puedan cumplir con los requerimientos del generador de carga.'
             ),
             array(
                 'titulo' =>'Robo y control de combustible',
                 'solucion' => 'Lector de computador del camión',
-                'descripcion' => 'Podemos saber el consumo real que tuvo el camión por intervalo de tiempo o rutas. De esta manera el cuadre con las cargas nos entrega las fugas y por otro lado saber qué conductor es más eficiente'
+                'descripcion' => 'Podemos saber el consumo real que tuvo el camión por intervalo de tiempo o rutas. De esta manera el cuadre con las cargas nos entrega las fugas y por otro lado saber qué conductor es más eficiente.'
             ),        
         );
 
-        return view('servicios', compact('datosTrasnporteCarga'));
+        return view('serviciosTransCarga', compact('datosTrasnporteCarga'));
+    }
+
+    public function servicioMaquinariaConstrusccion(){
+        $datosMaquinariaConstruccion = array(
+            array(
+                'titulo' => 'Robo de maquinaria',
+                'solucion' => '1) Bloqueo remoto del motor'.'\n'.'2) Bloqueo por desconexión de GPS',
+                'descripcion' => '1) Mediante nuestra plataforma el usuario podrá detener el camión ingresando una contraseña. \n2) Es típico que cuando se roban un camión los delicuentes intentan sacar el GPS para que no los encuentren. Nuestro sistema permite que el camión  se detenga si nos desconectan el GPS.'
+            ),
+            array(
+                'titulo' => 'Control de horas trabajadas',
+                'solucion' => 'Sensor de ignición',
+                'descripcion' => 'Sabemos el tiempo que está trabajando la máquina y el lugar en donde se ubica. Con esta información ayudamos queu la facturación sea en tiempo real y que no dependa de personal para ir a cada máquina a ver las horas trabajadas.'
+            ),
+            
+            array(
+                'titulo' => 'Gestión de mantenciones a mano',
+                'solucion' => 'Módulo de mantenciones preventivas.',
+                'descripcion' => ' Contabilizamos las horas de funcionamiento de casa máquina y avisamos cuando se aproxima una mantencion para poder gestionarla de manera más eficiente.'
+            ),
+            array(
+                'titulo' => 'Mandante de los datos del GPS',
+                'solucion' => 'Web Services',
+                'descripcion' => 'Al ser desarrolladores de la plataforma, realizamos sistemas de reenvios de la información para que nuestros clientes puedan cumplir con los requerimientos del generador de carga.'
+            ),
+            array(
+                'titulo' =>'Robo y control de combustible',
+                'solucion' => 'Lector de computador de la maquinaria',
+                'descripcion' => 'Podemos saber el consumo real que tuvo la máquina por intervalos de tiempo. De esta manera el cuadre con las cargas nos entrega las fugas y por otro lado saber qué operador es más eficiente. Además sabemos los codigos de falla.'
+            ),
+
+        );
+          
+        return view('serviciosMaquiCons', compact('datosMaquinariaConstruccion'));
+
     }
 }

@@ -18,12 +18,18 @@ html{
     color:$tercero !important;
 }
 
+
 .header{
     background-image: url(../../public/images/fondo-2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;    
     width: 100%;
+}
+
+.eslogan{
+    position: relative;
+    top: 35%;
 }
 
 .servicios{
@@ -35,19 +41,35 @@ html{
 }
 
 .tarjeta{
-    width: 345px !important;
-    border-radius: 16px !important;
+
+    @media (min-width: 768px){
+        width: 345px !important;
+        border-radius: 16px !important;
+    }
+
+    @media (max-width: 767px){
+        border-radius: 16px !important;
+    }
 
 }
 
 .card-img-top{
     position: relative;
-    top: -1px;
-    left: -1px;
-    margin: 0 !important;
-    border-radius: 14px !important;
-    width: 345px !important;
-    height: 460px !important;
+    
+    @media (min-width: 768px){
+        width: 345px !important;
+        height: 460px !important;
+        border-radius: 14px !important;
+        top: -1px;
+        left: -1px;
+        margin: 0 !important;
+    }
+
+    @media (max-width: 767px){
+        
+        margin: 0 !important;
+        border-radius: 16px !important;
+    }
 }
 
 .formulario{
@@ -66,25 +88,84 @@ html{
 
 .btn-whatsapp {
     display:block;
-    width:70px;
-    height:70px;
+    
     color:#fff;
     position: fixed;
-    right:20px;
-    bottom:20px;
+    right:35px;
+    bottom:35px;
     border-radius:50%;
     line-height:80px;
     text-align:center;
     z-index:999;
+
+    @media (min-width: 768px){
+        width:70px;
+        height:70px;
+        right:35px;
+        bottom:35px;
+    }
+    @media (max-width: 767px){
+        width:35px;
+        height:35px;
+        right:15%;
+        bottom:10%;
+    }
 }
 
 .icono-footer{
     font-size: 1rem;
-    color: $tercero;
+    color: #48AAAD;
 }
 
 // Pagina servicios
 .datos-seccion-servicios{
     background-color: $secundario;
     margin-top: 5rem;
+}
+
+.titulo-datos-servicios{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: $cuarto;
+
+    .solucion{
+        font-size: 15px;
+        color: $cuarto;
+        
+    }
+    .solucion-data{
+        font-size: 15px;
+        color: #48AAAD;
+    }
+}
+.title-card-prices{
+    color: darkgoldenrod;
+}
+.h6_plataforma{
+    @media (min-width: 768px){
+        margin-top: 3rem;
+        line-height: 1.6;
+    }
+    @media (max-width: 767px){
+        margin-top: 1rem;
+    }
+}
+
+.card-custom-prices{
+    background-color: $principal;
+    color: $cuarto;
+
+    @media (min-width: 768px){
+        height: 17rem;
+        width: auto;
+    }
+}
+.card-custom-prices-adicional{
+    background-color: $principal;
+    color: $cuarto;
+}
+
+.card-custom-services{
+    background-color: $principal;
+    color: $cuarto
 }
