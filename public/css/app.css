@@ -16273,6 +16273,15 @@ html {
   padding-bottom: 5rem;
 }
 
+.datos-seccion-servicios-particulares {
+  background-image: url(/images/car3.jpeg?40a120f33693f237f8d558d9700ca572);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem;
+}
+
 .titulo-datos-servicios {
   font-size: 20px;
   text-decoration: none !important;
@@ -16312,6 +16321,11 @@ html {
     height: 17rem;
     width: auto;
   }
+}
+
+.card-color-principal {
+  background-color: #222831;
+  color: #eeeeee;
 }
 
 .card-custom-prices-adicional {

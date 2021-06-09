@@ -19,24 +19,22 @@
             </div>
 
             <div class="row pt-5 pb-5 text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="card tarjeta">
-                        <img src="{{ ('images/truck1.jpeg') }}" class="card-img-top" alt="...">
-                        <div class="card-title pt-3">
-                            <h4>Transporte de Carga</h4>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-text">Antijammer</h6>
-                            <h6 class="card-text">Bloqueo por desconexión de GPS</h6>
-                            <h6 class="card-text">Bloqueo remoto</h6>
-                            <h6 class="card-text">Inmovilizador</h6>
-                            <br>
-                            <a href="{{ route('servicioTransporte') }}" class="btn btn-warning">Leer más</a>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-md-4 mb-4">
+                    <div class="card tarjeta">
+                        <img src="{{ ('images/car1.jpeg') }}" class="card-img-top" alt="...">
+                        <div class="card-title pt-3">
+                            <h4>Particular</h4>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-text">Corta corriente</h6>
+                            <h6 class="card-text">Bloqueo remoto</h6>
+                            <h6 class="card-text">Uso de plataforma web</h6>
+                            <h6 class="card-text">Inmovilizador</h6>
+                            <br>
+                            <a href="{{ route('servicioParticular') }}" class="btn btn-warning">Leer más</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4 mb-4">
@@ -53,6 +51,23 @@
                             <h6 class="card-text">Sensor on/off</h6>
                             <br>
                             <a href="{{ route('servicioMquinariaConstruccion') }}" class="btn btn-warning">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card tarjeta">
+                        <img src="{{ ('images/truck1.jpeg') }}" class="card-img-top" alt="...">
+                        <div class="card-title pt-3">
+                            <h4>Transporte de Carga</h4>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-text">Antijammer</h6>
+                            <h6 class="card-text">Bloqueo por desconexión de GPS</h6>
+                            <h6 class="card-text">Bloqueo remoto</h6>
+                            <h6 class="card-text">Inmovilizador</h6>
+                            <br>
+                            <a href="{{ route('servicioTransporte') }}" class="btn btn-warning">Leer más</a>
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,8 @@
                 <a href="https://www.grupoibaceta.com/" target="_blank" class="icono-footer"><i class="fas fa-columns"></i> Grupo Ibaceta</a>
                 <br>
                 <a href="https://www.instagram.com/servicios.integrales.ibaceta/" target="_blank" class="icono-footer"><i class="fab fa-instagram"></i> Servicios Integrales Ibaceta</a>
+                <br>
+                <a href="https://www.instagram.com/transportes_ibaceta/" target="_blank" class="icono-footer"><i class="fab fa-instagram"></i> Transportes Ibaceta</a>
             </div>
 
         </div>

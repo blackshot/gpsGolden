@@ -94,4 +94,8 @@ class HomeController extends Controller
         return view('serviciosMaquiCons', compact('datosMaquinariaConstruccion'));
 
     }
+
+    public function servicioParticulares(){
+        return view('serviciosParticulares');
+    }
 }

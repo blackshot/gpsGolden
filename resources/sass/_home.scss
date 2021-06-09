@@ -136,6 +136,15 @@ html{
     padding-bottom: 5rem;
 }
 
+.datos-seccion-servicios-particulares{
+    background-image: url(../../public/images/car3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    width: 100%;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem;
+}
+
 .titulo-datos-servicios{
     font-size: 20px;
     text-decoration: none !important;
@@ -172,6 +181,10 @@ html{
         height: 17rem;
         width: auto;
     }
+}
+.card-color-principal{
+    background-color: $principal;
+    color: $cuarto;
 }
 .card-custom-prices-adicional{
     background-color: $principal;
