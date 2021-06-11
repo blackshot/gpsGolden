@@ -18,6 +18,7 @@
     @yield('cuerpo') 
     @include('componentes.formularioContacto')
     @include('componentes.footer')
+    @include('sweetalert::alert')
     <script src="{{ asset('js/app.js') }}" defer></script>
     @yield('js')
     @stack('js')
