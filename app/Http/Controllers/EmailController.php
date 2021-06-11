@@ -19,7 +19,7 @@ class EmailController extends Controller
         );
         try {
 
-            Mail::to('hola@mundo.cl')->send(new MySendEmail($mensaje));
+            Mail::to('servicios@gpsgolden.cl')->send(new MySendEmail($mensaje));
             
             Alert::success('Solicitud enviada', 'Pronto nos pondremos en contacto');
             return redirect()->back();
