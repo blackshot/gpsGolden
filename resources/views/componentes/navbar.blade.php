@@ -12,9 +12,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contactanos" id="nav-contactanos">Contáctanos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.qmgps.cl/gps_golden/inicioGOLDEN.aspx" target="_blank">Portal</a>
-                </li>
             </ul>
         </div>
     </div>

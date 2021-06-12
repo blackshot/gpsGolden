@@ -62,7 +62,7 @@
                             <h4>Transporte de Carga</h4>
                         </div>
                         <div class="card-body">
-                            <h6 class="card-text">Antijammer</h6>
+                            <h6 class="card-text">Anti-jammer</h6>
                             <h6 class="card-text">Bloqueo por desconexión de GPS</h6>
                             <h6 class="card-text">Bloqueo remoto</h6>
                             <h6 class="card-text">Inmovilizador</h6>
