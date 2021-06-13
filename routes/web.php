@@ -20,5 +20,13 @@ Route::get('/servicios/maquinaria-construccion', [HomeController::class, 'servic
 Route::get('/servicios/particulares', [HomeController::class, 'servicioParticulares'])->name('servicioParticular');
 
 Route::get('/contact', [EmailController::class, 'sendEmailContact'])->name('contacto');
+
+Route::get('/reset', function (){
+    Artisan::call('route:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('config:cache');
+});
+
 Auth::routes(); 
 
